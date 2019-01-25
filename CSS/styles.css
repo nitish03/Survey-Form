@@ -22,11 +22,22 @@ body {
 }
 
 label {
-	padding: 10px;
+	padding: 0 7px;
 }
 .input-box {
 	padding: 10px;
 	width: 300px;
+}
+
+.mid {
+	font-size: 18px;
+	padding: 20px 0;
+	text-align: left;
+}
+
+#dropdown {
+	height: 40px;
+	width: 295px;
 }
 
 /*media quires*/
@@ -41,16 +52,38 @@ label {
 	.input-box {
 		width: 250px;
 	}
+	label {
+		padding: 0 15px;
+	}
 }
 
-@media (min-width: 551px) and (max-width: 1050px) {
+@media (min-width: 551px) and (max-width: 1023px) {
 	#starter {
 		max-width: 80%;
 	}
 	.top {
 		margin: 0 10%;
 	}
-	.input-box {
+	.input-box, #dropdown {
 		width: 250px;
+	}
+	#dropdown {
+		width: 140px;
+	}
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+	.top{
+		margin: 0;
+	}
+	.mid {
+		margin: 0 0 0 1%;
+	}
+}
+
+@media (min-width: 1090px) {
+	.mid {
+		text-align: right;
+		margin: 0 25.5% 0 0;
 	}
 }
