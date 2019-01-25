@@ -1,3 +1,56 @@
 body {
 	text-align: center;
+	background: #f0d361;
+}
+
+#starter {
+	margin: 0 auto;
+	max-width: 66%;
+	background: #fff;
+	padding: 10px;
+}
+
+#description {
+	font-size: 18px;
+}
+
+.top {
+	padding: 5px;
+	font-size: 18px;
+	text-align: right;
+	margin: 0 25%;
+}
+
+label {
+	padding: 10px;
+}
+.input-box {
+	padding: 10px;
+	width: 300px;
+}
+
+/*media quires*/
+@media (min-width: 300px) and (max-width: 550px) {
+	#starter {
+		max-width: 90%;
+	}
+	.top {
+		margin: 0;
+		text-align: left;
+	}
+	.input-box {
+		width: 250px;
+	}
+}
+
+@media (min-width: 551px) and (max-width: 1050px) {
+	#starter {
+		max-width: 80%;
+	}
+	.top {
+		margin: 0 10%;
+	}
+	.input-box {
+		width: 250px;
+	}
 }

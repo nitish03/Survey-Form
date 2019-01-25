@@ -2,11 +2,38 @@
 <html lang="en">
 <head>
 	<title>Survey Form</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href="CSS/styles.css" rel="stylesheet">
 </head>
 <body>
 	<header>
 		<h1 id="title">Survey Form</h1>
 	</header>
+	<main>
+		<div id="starter">
+			<p id="description">Let us know how was our restaurant service</p>
+		<form id="survey-form" action="" method="get">
+			<!-- name, email, phone, age -->
+			<div class="top">
+			  <label id="name-label" for="name">* Name:</label>
+				<input type="text" id="name" name="name" placeholder="Enter your name" required class="input-box">
+			</div>
+			<div class="top">
+				<label id="email-label" for="email">* Email:</label>
+				<input type="text" id="email" name="email" placeholder="Enter your email" required class="input-box">
+			</div>
+			<div class="top">
+				<label id="phone-label" for="phone">* Phone:</label>
+				<input type="text" id="phone" name="phone" placeholder="Enter your phone number" required class="input-box">
+			</div>
+			<div class="top">
+				<label id="number-label" for="age">* Age:</label>
+				<input type="number" id="age" name="age" placeholder="Enter your age" min="1" max="100" required class="input-box">
+			</div>
+		</form>
+		</div>
+	</main>
+	<footer></footer>
 </body>
 </html>
