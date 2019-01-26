@@ -40,6 +40,30 @@ label {
 	width: 295px;
 }
 
+ul {
+	list-style: none;
+	padding: 0;
+}
+
+.mid1 {
+	display: inline-block;
+  width: 48%;
+	text-align: left;
+  vertical-align: top;
+  padding: 5px;
+  margin: 15px 19px 0 0;
+	font-size: 18px;
+}
+.radio {
+	display: inline-block;
+  text-align: left;
+  width: 48%;
+  vertical-align: middle;
+	position: relative;
+  left: -50px;
+	font-size: 18px;
+}
+
 /*media quires*/
 @media (min-width: 300px) and (max-width: 550px) {
 	#starter {
@@ -53,7 +77,18 @@ label {
 		width: 250px;
 	}
 	label {
-		padding: 0 15px;
+		padding: 0;
+	}
+	#dropdown {
+		width: 240px;
+	}
+	.mid1 {
+		width: 43.5%;
+		margin: 10px 0 0 0;
+	}
+	.radio {
+		width: 43.5%;
+		left: 15px;
 	}
 }
 
@@ -70,6 +105,12 @@ label {
 	#dropdown {
 		width: 140px;
 	}
+	.mid1 {
+		margin: 10px 4.5px 0 0;
+	}
+	.radio {
+		left: -10px;
+	}
 }
 
 @media (min-width: 1024px) and (max-width: 1279px) {
@@ -78,6 +119,12 @@ label {
 	}
 	.mid {
 		margin: 0 0 0 1%;
+	}
+	.mid1 {
+		margin: 10px 4.5px 0 0;
+	}
+	.radio {
+		left: -10px;
 	}
 }
 
