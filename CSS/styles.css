@@ -54,13 +54,13 @@ ul {
   margin: 15px 19px 0 0;
 	font-size: 18px;
 }
-.radio {
+.radio, .checkbox {
 	display: inline-block;
   text-align: left;
   width: 48%;
   vertical-align: middle;
 	position: relative;
-  left: -50px;
+  left: -10px;
 	font-size: 18px;
 }
 
@@ -86,7 +86,7 @@ ul {
 		width: 43.5%;
 		margin: 10px 0 0 0;
 	}
-	.radio {
+	.radio, .checkbox {
 		width: 43.5%;
 		left: 15px;
 	}
