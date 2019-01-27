@@ -1,6 +1,7 @@
 body {
 	text-align: center;
 	background: #f0d361;
+	font-size: 18px;
 }
 
 #starter {
@@ -10,13 +11,8 @@ body {
 	padding: 10px;
 }
 
-#description {
-	font-size: 18px;
-}
-
 .top {
 	padding: 5px;
-	font-size: 18px;
 	text-align: right;
 	margin: 0 25%;
 }
@@ -24,13 +20,13 @@ body {
 label {
 	padding: 0 7px;
 }
+
 .input-box {
 	padding: 10px;
 	width: 300px;
 }
 
 .mid {
-	font-size: 18px;
 	padding: 20px 0;
 	text-align: left;
 }
@@ -45,23 +41,45 @@ ul {
 	padding: 0;
 }
 
-.mid1 {
+.mid1,
+.mid2 {
 	display: inline-block;
   width: 48%;
 	text-align: left;
   vertical-align: top;
   padding: 5px;
-  margin: 15px 19px 0 0;
-	font-size: 18px;
+  margin: 15px 0 0 0;
 }
-.radio, .checkbox {
+
+.radio,
+.checkbox,
+.comment {
 	display: inline-block;
   text-align: left;
   width: 48%;
   vertical-align: middle;
 	position: relative;
   left: -10px;
-	font-size: 18px;
+}
+
+#submit {
+	background-color: #217d96;
+	padding: 10px 40px;
+	margin: 10px 0;
+	border-radius: 5px;
+	color: #fff;
+}
+
+#submit:hover{
+	background: #f0d361;
+}
+
+footer {
+	padding: 10px;
+}
+
+a:hover {
+	color: #217d96;
 }
 
 /*media quires*/
@@ -89,6 +107,12 @@ ul {
 	.radio, .checkbox {
 		width: 43.5%;
 		left: 15px;
+	}
+	.mid2, .comment {
+		width: 100%;
+	}
+	.comment {
+		left: 0;
 	}
 }
 
